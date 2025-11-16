@@ -1,13 +1,13 @@
 <?php
 
-namespace Micromagicman\TelegramWebApp\Service;
+namespace PHPCore\TelegramWebApp\Service;
 
 use BadMethodCallException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
-use Micromagicman\TelegramWebApp\Dto\TelegramUser;
-use Micromagicman\TelegramWebApp\Util\Crypto;
-use Micromagicman\TelegramWebApp\Util\Time;
+use PHPCore\TelegramWebApp\Dto\TelegramUser;
+use PHPCore\TelegramWebApp\Util\Crypto;
+use PHPCore\TelegramWebApp\Util\Time;
 use TelegramBot\Api\BotApi;
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Micromagicman\TelegramWebApp\Util;
+namespace PHPCore\TelegramWebApp\Util;
 
 /**
  * Time management service

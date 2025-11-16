@@ -1,10 +1,10 @@
 <?php
 
-namespace Micromagicman\TelegramWebApp\Facade;
+namespace PHPCore\TelegramWebApp\Facade;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Facade;
-use Micromagicman\TelegramWebApp\Service\TelegramWebAppService;
+use PHPCore\TelegramWebApp\Service\TelegramWebAppService;
 
 /**
  * A static proxy to {@link TelegramWebAppService} service

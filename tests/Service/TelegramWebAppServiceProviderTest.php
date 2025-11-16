@@ -1,18 +1,18 @@
 <?php
 
-namespace Micromagicman\TelegramWebApp\Tests\Service;
+namespace PHPCore\TelegramWebApp\Tests\Service;
 
 use BadMethodCallException;
 use DOMDocument;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Artisan;
-use Micromagicman\TelegramWebApp\Dto\TelegramUser;
-use Micromagicman\TelegramWebApp\Facade\TelegramFacade;
-use Micromagicman\TelegramWebApp\Service\TelegramWebAppService;
-use Micromagicman\TelegramWebApp\TelegramWebAppServiceProvider;
-use Micromagicman\TelegramWebApp\Tests\Fixtures\StubBotApi;
-use Micromagicman\TelegramWebApp\Util\Crypto;
-use Micromagicman\TelegramWebApp\Util\Time;
+use PHPCore\TelegramWebApp\Dto\TelegramUser;
+use PHPCore\TelegramWebApp\Facade\TelegramFacade;
+use PHPCore\TelegramWebApp\Service\TelegramWebAppService;
+use PHPCore\TelegramWebApp\TelegramWebAppServiceProvider;
+use PHPCore\TelegramWebApp\Tests\Fixtures\StubBotApi;
+use PHPCore\TelegramWebApp\Util\Crypto;
+use PHPCore\TelegramWebApp\Util\Time;
 use Orchestra\Testbench\Attributes\DefineEnvironment;
 use Orchestra\Testbench\Concerns\WithWorkbench;
 use Orchestra\Testbench\TestCase;

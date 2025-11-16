@@ -1,11 +1,11 @@
 <?php
 
-namespace Micromagicman\TelegramWebApp\Http;
+namespace PHPCore\TelegramWebApp\Http;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
-use Micromagicman\TelegramWebApp\Service\TelegramWebAppService;
+use PHPCore\TelegramWebApp\Service\TelegramWebAppService;
 
 /**
  * Middleware that provides a mechanism for validating Telegram MiniApp users

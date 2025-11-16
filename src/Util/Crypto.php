@@ -1,6 +1,6 @@
 <?php
 
-namespace Micromagicman\TelegramWebApp\Util;
+namespace PHPCore\TelegramWebApp\Util;
 
 /**
  * Service with util methods for cryptography

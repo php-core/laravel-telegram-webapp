@@ -1,7 +1,7 @@
 # Laravel Telegram WebApp package
 
-![build](https://github.com/micromagicman/laravel-telegram-webapp/actions/workflows/laravel-telegram-webapp-ci.yml/badge.svg)
-[![codecov](https://codecov.io/github/micromagicman/laravel-telegram-webapp/graph/badge.svg?token=ZSVF7MGB38)](https://codecov.io/github/micromagicman/laravel-telegram-webapp)
+![build](https://github.com/php-core/laravel-telegram-webapp/actions/workflows/laravel-telegram-webapp-ci.yml/badge.svg)
+[![codecov](https://codecov.io/github/php-core/laravel-telegram-webapp/graph/badge.svg?token=ZSVF7MGB38)](https://codecov.io/github/php-core/laravel-telegram-webapp)
 
 Laravel package that allows you to process commands from Telegram MiniApp with user verification according to
 [Telegram MiniApp developer documentation](https://core.telegram.org/bots/webapps), as well as obtaining information
@@ -9,7 +9,7 @@ about the Telegram user who sent the request
 
 ## Requirements
 
-| Laravel | micromagicman/laravel-telegram-webapp |
+| Laravel | php-core/laravel-telegram-webapp |
 |---------|---------------------------------------|
 | 10.x    | 1.x.x                                 |
 | 11.x    | 2.x.x                                 |
@@ -20,7 +20,7 @@ about the Telegram user who sent the request
 ### Via composer
 
 ```bash
-composer require micromagicman/laravel-telegram-webapp
+composer require php-core/laravel-telegram-webapp
 ```
 
 ### Publishing
@@ -28,7 +28,7 @@ composer require micromagicman/laravel-telegram-webapp
 Publish to your Laravel application:
 
 ```bash
-php artisan vendor:publish --provider="Micromagicman\TelegramWebApp\TelegramWebAppServiceProvider"
+php artisan vendor:publish --provider="PHPCore\TelegramWebApp\TelegramWebAppServiceProvider"
 ```
 
 ## Configure
@@ -85,7 +85,7 @@ To use the Telegram Bot API methods, you can leverage the **TelegramWebAppFacade
 Example usage with the Facade:
 
 ```php
-use Micromagicman\TelegramWebApp\Facades\TelegramWebApp;
+use PHPCore\TelegramWebApp\Facades\TelegramWebApp;
 
 $response = TelegramWebApp::getMe();
 ```
@@ -99,7 +99,7 @@ You can also interact with the Telegram Bot API directly through the service. In
 Example usage in a controller:
 
 ```php
-use Micromagicman\TelegramWebApp\Services\TelegramWebAppService;
+use PHPCore\TelegramWebApp\Services\TelegramWebAppService;
 
 class MyController extends Controller
 {

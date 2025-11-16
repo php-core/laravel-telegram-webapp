@@ -1,6 +1,6 @@
 <?php
 
-namespace Micromagicman\TelegramWebApp\Tests\Fixtures;
+namespace PHPCore\TelegramWebApp\Tests\Fixtures;
 
 use TelegramBot\Api\BotApi;
 

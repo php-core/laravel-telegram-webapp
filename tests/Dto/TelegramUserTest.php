@@ -1,8 +1,8 @@
 <?php
 
-namespace Micromagicman\TelegramWebApp\Tests\Dto;
+namespace PHPCore\TelegramWebApp\Tests\Dto;
 
-use Micromagicman\TelegramWebApp\Dto\TelegramUser;
+use PHPCore\TelegramWebApp\Dto\TelegramUser;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;

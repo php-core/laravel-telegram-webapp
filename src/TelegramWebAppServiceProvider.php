@@ -1,12 +1,12 @@
 <?php
 
-namespace Micromagicman\TelegramWebApp;
+namespace PHPCore\TelegramWebApp;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Micromagicman\TelegramWebApp\Api\TelegramApi;
-use Micromagicman\TelegramWebApp\Api\TelegramBotApi;
-use Micromagicman\TelegramWebApp\Http\WebAppDataValidationMiddleware;
+use PHPCore\TelegramWebApp\Api\TelegramApi;
+use PHPCore\TelegramWebApp\Api\TelegramBotApi;
+use PHPCore\TelegramWebApp\Http\WebAppDataValidationMiddleware;
 use TelegramBot\Api\BotApi;
 
 class TelegramWebAppServiceProvider extends ServiceProvider

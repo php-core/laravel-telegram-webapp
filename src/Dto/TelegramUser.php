@@ -1,6 +1,6 @@
 <?php
 
-namespace Micromagicman\TelegramWebApp\Dto;
+namespace PHPCore\TelegramWebApp\Dto;
 
 /**
  * Description of Telegram WebApp user

@@ -1,5 +1,5 @@
 providers:
-  - Micromagicman\TelegramWebApp\TelegramWebAppServiceProvider
+  - PHPCore\TelegramWebApp\TelegramWebAppServiceProvider
 
 workbench:
   start: '/'

@@ -1,26 +1,30 @@
 {
-    "name": "micromagicman/laravel-telegram-webapp",
+    "name": "php-core/laravel-telegram-webapp",
     "description": "Laravel middleware for Telegram WebApp data validation",
     "type": "library",
     "license": "MIT",
-    "keywords": ["telegram", "miniapp", "bot", "laravel"],
+    "keywords": ["php", "telegram", "webapp", "miniapp", "bot", "laravel"],
     "autoload": {
         "files": [
             "src/helpers.php"
         ],
         "psr-4": {
-            "Micromagicman\\TelegramWebApp\\": "src/"
+            "PHPCore\\TelegramWebApp\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Micromagicman\\TelegramWebApp\\Tests\\": "tests/",
+            "PHPCore\\TelegramWebApp\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/",
             "Workbench\\Database\\Factories\\": "workbench/database/factories/",
             "Workbench\\Database\\Seeders\\": "workbench/database/seeders/"
         }
     },
     "authors": [
+        {
+            "name": "PHPCore",
+            "email": "dev@php-core.com"
+        },
         {
             "name": "micromagicman",
             "email": "evgen@micromagicman.ru"
@@ -42,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Micromagicman\\TelegramWebApp\\TelegramWebAppServiceProvider"
+                "PHPCore\\TelegramWebApp\\TelegramWebAppServiceProvider"
             ],
             "aliases": {
-                "TelegramWebApp": "Micromagicman\\TelegramWebApp\\Facade\\TelegramFacade"
+                "TelegramWebApp": "PHPCore\\TelegramWebApp\\Facade\\TelegramFacade"
             }
         }
     },

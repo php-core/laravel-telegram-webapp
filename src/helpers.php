@@ -1,7 +1,7 @@
 <?php
 
-use Micromagicman\TelegramWebApp\Dto\TelegramUser;
-use Micromagicman\TelegramWebApp\Service\TelegramWebAppService;
+use PHPCore\TelegramWebApp\Dto\TelegramUser;
+use PHPCore\TelegramWebApp\Service\TelegramWebAppService;
 
 if ( !function_exists( 'telegramWebApp' ) ) {
 
